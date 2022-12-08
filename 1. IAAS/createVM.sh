@@ -48,3 +48,6 @@ az vm list-ip-addresses \
 
 #azure üzerinden ssh ile Linux makineye bağlan:
 ssh turkay@20.107.39.252
+
+#para yazmasın :) RG'leri siliyoruz
+az group delete --name bademo-vm-cli-rg --yes --no-wait 
