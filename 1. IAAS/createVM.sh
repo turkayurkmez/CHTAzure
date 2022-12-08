@@ -35,4 +35,9 @@ az vm create \
             --ssh-key-value ~/.ssh/id_rsa.pub \
             --generate-ssh-keys
 
-        
+
+az vm open-port \
+            --resource-group bademo-vm-cli-rg \
+            --name "bademo-linux-cli"  \
+            --port "22" \
+
