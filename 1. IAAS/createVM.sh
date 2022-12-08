@@ -45,3 +45,6 @@ az vm list-ip-addresses \
               --resource-group bademo-vm-cli-rg \
               --name "bademo-linux-cli"  \
               --output table
+
+#azure üzerinden ssh ile Linux makineye bağlan:
+ssh turkay@20.107.39.252
