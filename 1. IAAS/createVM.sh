@@ -18,6 +18,10 @@ az vm open-port \
             --resource-group bademo-vm-cli-rg \
             --name "bademo-win-cli"  \
             --port "3389" \
-
+#5. Oluşturulan VM'in public IP Adresini bulun:
+az vm list-ip-addresses \
+              --resource-group bademo-vm-cli-rg \
+              --name "bademo-win-cli"  \
+              --output table
 
         
