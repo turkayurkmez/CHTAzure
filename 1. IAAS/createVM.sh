@@ -41,3 +41,7 @@ az vm open-port \
             --name "bademo-linux-cli"  \
             --port "22" \
 
+az vm list-ip-addresses \
+              --resource-group bademo-vm-cli-rg \
+              --name "bademo-linux-cli"  \
+              --output table
