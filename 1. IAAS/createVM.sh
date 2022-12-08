@@ -24,4 +24,15 @@ az vm list-ip-addresses \
               --name "bademo-win-cli"  \
               --output table
 
+
+### LAB 2.2: UBUNTU (via SSH)
+az vm create \
+            --resource-group bademo-vm-cli-rg \
+            --name "bademo-linux-cli" \
+            --image "UbuntuLTS" \
+            --admin-username "turkay" \
+            --authentication-type "ssh" \
+            --ssh-key-value ~/.ssh/id_rsa.pub \
+            --generate-ssh-keys
+
         
