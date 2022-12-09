@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9yT5i1lL5eC3Uznnj9J8iDTL2msx9xZ8tIqPhiLez0LBhFpyM3nc5MC7kewfEjtvS6m7bOuLOpUIOYyvUIhu/Q==",
+  "dgSpecHash": "X0ruYKjig1aS61SzMRgfWB0j0ZnOrmUHKY/vvqQ/SM8GC4zs+UEExSWXE4pMpMdFfcDwExwXT+8r3UsIrBnjIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\CHT\\AZ-204\\1. IAAS\\Containerization\\ContainerDemo\\ContainerDemo\\ContainerDemo.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\turka\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
   "logs": []
 }
